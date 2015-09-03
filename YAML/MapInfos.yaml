@@ -1,0 +1,15 @@
+---
+1: !ruby/object:RPG::MapInfo
+  scroll_x: 536
+  name: MAP001
+  expanded: false
+  order: 1
+  scroll_y: 321
+  parent_id: 0
+2: !ruby/object:RPG::MapInfo
+  scroll_x: 448
+  name: 妖精之泉
+  expanded: false
+  order: 2
+  scroll_y: 608
+  parent_id: 0

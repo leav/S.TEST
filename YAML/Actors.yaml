@@ -1,0 +1,204 @@
+---
+- 
+- !ruby/object:RPG::Actor
+  name: 艾里克
+  face_index: 0
+  character_index: 0
+  initial_level: 1
+  face_name: Actor4
+  class_id: 1
+  character_name: Actor4
+  id: 1
+  features: []
+  note: ''
+  equips:
+  - 1
+  - 46
+  - 0
+  - 1
+  - 0
+  nickname: 银之死神
+  description: "历经数次战场洗礼的雇佣兵。虽然平时很温和，\r\n但是一进入战斗就会化身为狂战士。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: 娜塔丽
+  face_index: 1
+  character_index: 1
+  initial_level: 1
+  face_name: Actor4
+  class_id: 2
+  character_name: Actor4
+  id: 2
+  features: []
+  note: ''
+  equips:
+  - 7
+  - 0
+  - 0
+  - 1
+  - 0
+  nickname: 赤色闪电
+  description: "其祖父是使用爪的高手，因此在年幼时她就学会\r\n了无数格斗技巧。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: 泰伦斯
+  face_index: 2
+  character_index: 2
+  initial_level: 1
+  face_name: Actor4
+  class_id: 3
+  character_name: Actor4
+  id: 3
+  features: []
+  note: ''
+  equips:
+  - 13
+  - 46
+  - 0
+  - 1
+  - 0
+  nickname: 流浪骑士
+  description: "因被人暗算失去了圣骑士地位，但如今依然为了\r\n骑士精神而四处修行。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: 阿奈思特
+  face_index: 4
+  character_index: 4
+  initial_level: 1
+  face_name: Actor4
+  class_id: 4
+  character_name: Actor4
+  id: 4
+  features: []
+  note: ''
+  equips:
+  - 19
+  - 46
+  - 0
+  - 1
+  - 0
+  nickname: 魔剑继承者
+  description: "为了替师傅报仇而踏上旅途，\r\n能够把魔法的力量寄宿在剑刃之中。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: 龙马
+  face_index: 6
+  character_index: 6
+  initial_level: 1
+  face_name: Actor4
+  class_id: 5
+  character_name: Actor4
+  id: 5
+  features: []
+  note: ''
+  equips:
+  - 25
+  - 0
+  - 0
+  - 1
+  - 0
+  nickname: 晓之钢剑
+  description: "在东瀛有着“无双之钢剑”称号的樱花一刀流\r\n剑士，一闪而过的刀锋沉重而锋利。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: 布伦达
+  face_index: 1
+  character_index: 1
+  initial_level: 1
+  face_name: Actor5
+  class_id: 6
+  character_name: Actor5
+  id: 6
+  features: []
+  note: ''
+  equips:
+  - 31
+  - 0
+  - 0
+  - 1
+  - 0
+  nickname: 森林守护者
+  description: "精灵之森养育的少女，热爱自然，不允许任何人\r\n扰乱森林的宁静，也有些向往都市生活。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: 瑞克
+  face_index: 2
+  character_index: 2
+  initial_level: 1
+  face_name: Actor5
+  class_id: 7
+  character_name: Actor5
+  id: 7
+  features: []
+  note: ''
+  equips:
+  - 37
+  - 37
+  - 0
+  - 1
+  - 0
+  nickname: 无影疾风
+  description: "自称讨厌被约束的义贼青年，非常多嘴，\r\n是一个愿意为朋友献出生命的热血男儿。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: 爱丽丝
+  face_index: 5
+  character_index: 5
+  initial_level: 1
+  face_name: Actor5
+  class_id: 8
+  character_name: Actor5
+  id: 8
+  features: []
+  note: ''
+  equips:
+  - 43
+  - 0
+  - 0
+  - 1
+  - 0
+  nickname: 救世圣女
+  description: "根据神谕有着圣女使命的女子，充满同情心的她\r\n即便是敌人也会给予相同的爱。"
+  max_level: 99
+- !ruby/object:RPG::Actor
+  name: 伊萨贝拉
+  face_index: 7
+  character_index: 7
+  initial_level: 1
+  face_name: Actor5
+  class_id: 9
+  character_name: Actor5
+  id: 9
+  features: []
+  note: ''
+  equips:
+  - 49
+  - 0
+  - 0
+  - 1
+  - 0
+  nickname: 优雅的恶梦
+  description: "一直带给人类恐惧的魔女，转生术失败后，失去\r\n了大部分的记忆，但却流露出原来善良的本性。"
+  max_level: 99
+  icon_index: 0
+- !ruby/object:RPG::Actor
+  name: 诺亚
+  face_index: 6
+  character_index: 6
+  initial_level: 1
+  face_name: Actor5
+  class_id: 10
+  character_name: Actor5
+  id: 10
+  features: []
+  note: ''
+  equips:
+  - 49
+  - 0
+  - 0
+  - 1
+  - 0
+  nickname: 观星者
+  description: "为避世俗而隐居在山林中的贤者，为寻找凶星的\r\n真实身份而踏上寻找“最遥远之书库”的旅途。"
+  max_level: 99
+  icon_index: 0

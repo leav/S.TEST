@@ -1,0 +1,1590 @@
+---
+- 
+- !ruby/object:RPG::Armor
+  description: 透气性很好的布制衣服。
+  name: 布衣
+  icon_index: 168
+  price: 100
+  note: ''
+  id: 1
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 用最好的皮革制成的衣服。
+  name: 皮衣
+  icon_index: 168
+  price: 300
+  note: ''
+  id: 2
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 结实耐穿，能承受恶劣旅程的衣服。
+  name: 冒险者之服
+  icon_index: 168
+  price: 2000
+  note: ''
+  id: 3
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 用胶硬化的硬皮革背心。
+  name: 皮背心
+  icon_index: 168
+  price: 5000
+  note: ''
+  id: 4
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 覆盖钢片的皮革衣物。
+  name: 锁子甲
+  icon_index: 168
+  price: 8000
+  note: ''
+  id: 5
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 20
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 可以保护额头的布制帽子。
+  name: 布帽
+  icon_index: 162
+  price: 100
+  note: ''
+  id: 6
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 可以保护额头的皮制帽子。
+  name: 皮帽
+  icon_index: 162
+  price: 500
+  note: ''
+  id: 7
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 3
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 用毛皮制成的帽子。
+  name: 毛皮帽子
+  icon_index: 162
+  price: 1500
+  note: ''
+  id: 8
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 6
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 用以保护伤口和头部的厚布。
+  name: 头巾
+  icon_index: 162
+  price: 4000
+  note: ''
+  id: 9
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 装饰有极乐鸟羽毛的时尚帽子。
+  name: 羽毛帽
+  icon_index: 162
+  price: 6500
+  note: ''
+  id: 10
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 14
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 用木棉制成的厚长袍。
+  name: 棉长袍
+  icon_index: 171
+  price: 100
+  note: ''
+  id: 11
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 4
+  - 2
+  - 2
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 2
+- !ruby/object:RPG::Armor
+  description: 用上等丝绸制成的披风。
+  name: 丝绸斗篷
+  icon_index: 171
+  price: 500
+  note: ''
+  id: 12
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 9
+  - 3
+  - 4
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 2
+- !ruby/object:RPG::Armor
+  description: 长袍的内衬绣着符文。
+  name: 术士长袍
+  icon_index: 171
+  price: 3000
+  note: ''
+  id: 13
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 13
+  - 6
+  - 7
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 2
+- !ruby/object:RPG::Armor
+  description: 古代贤者穿过的长袍。
+  name: 隐士长袍
+  icon_index: 171
+  price: 8000
+  note: ''
+  id: 14
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 7
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 8
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 18
+  - 11
+  - 12
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 2
+- !ruby/object:RPG::Armor
+  description: 寄宿有精灵王力量的究极披风。
+  name: 元素披风
+  icon_index: 171
+  price: 13000
+  note: ''
+  id: 15
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 6
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 7
+    value: 0.6
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 8
+    value: 0.6
+  params:
+  - 0
+  - 0
+  - 0
+  - 25
+  - 17
+  - 18
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 2
+- !ruby/object:RPG::Armor
+  description: 用青铜制成的发饰。
+  name: 铜发饰
+  icon_index: 166
+  price: 100
+  note: ''
+  id: 16
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 2
+  - 2
+  - 1
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 2
+- !ruby/object:RPG::Armor
+  description: 铁制的环状头饰。
+  name: 头箍
+  icon_index: 166
+  price: 400
+  note: ''
+  id: 17
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 6
+  - 4
+  - 3
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 2
+- !ruby/object:RPG::Armor
+  description: 可以增强魔力的神奇发饰。
+  name: 银发饰
+  icon_index: 166
+  price: 2500
+  note: ''
+  id: 18
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 5
+  - 4
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 2
+- !ruby/object:RPG::Armor
+  description: 用魔法金属秘银制成的头饰。
+  name: 秘银头饰
+  icon_index: 166
+  price: 6000
+  note: ''
+  id: 19
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 7
+  - 6
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 2
+- !ruby/object:RPG::Armor
+  description: 使用古代魔法文明技术制作的头饰。
+  name: 贤者头冠
+  icon_index: 166
+  price: 10000
+  note: ''
+  id: 20
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 18
+  - 12
+  - 11
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 2
+- !ruby/object:RPG::Armor
+  description: 皮制的铠甲。
+  name: 皮甲
+  icon_index: 169
+  price: 100
+  note: ''
+  id: 21
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: 用青铜制成的劣质胸甲。
+  name: 青铜胸甲
+  icon_index: 169
+  price: 400
+  note: ''
+  id: 22
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 12
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: 钢板打造出的铁制胸甲。
+  name: 铁胸甲
+  icon_index: 169
+  price: 2700
+  note: ''
+  id: 23
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 18
+  - 0
+  - 0
+  - -2
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: 用魔法金属秘银制成的胸甲。
+  name: 秘银胸甲
+  icon_index: 169
+  price: 7000
+  note: ''
+  id: 24
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 24
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: 用龙鳞制成的胸甲。
+  name: 龙鳞胸甲
+  icon_index: 169
+  price: 12000
+  note: ''
+  id: 25
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 30
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: 用皮革制成的头盔。
+  name: 皮盔
+  icon_index: 163
+  price: 100
+  note: ''
+  id: 26
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 4
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: 使用青铜强化的头盔。
+  name: 铜盔
+  icon_index: 163
+  price: 350
+  note: ''
+  id: 27
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 7
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: 使用铁板强化的帽子。
+  name: 铁帽
+  icon_index: 163
+  price: 2400
+  note: ''
+  id: 28
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 12
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: 秘银线编织的帽子。
+  name: 秘银帽
+  icon_index: 163
+  price: 5500
+  note: ''
+  id: 29
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 16
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: 用龙皮制成的帽子。
+  name: 龙皮帽
+  icon_index: 163
+  price: 9500
+  note: ''
+  id: 30
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 22
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 3
+- !ruby/object:RPG::Armor
+  description: 使用铁锁链编织成的铠甲。
+  name: 锁甲
+  icon_index: 170
+  price: 100
+  note: ''
+  id: 31
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 8
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: 用钢铁制作的铠甲。
+  name: 铁甲
+  icon_index: 170
+  price: 800
+  note: ''
+  id: 32
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 16
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: 骑士穿的板甲。
+  name: 板甲
+  icon_index: 170
+  price: 3600
+  note: ''
+  id: 33
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.02
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -3.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 24
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: 用魔法金属秘银制成的铠甲。
+  name: 秘银铠甲
+  icon_index: 170
+  price: 8000
+  note: ''
+  id: 34
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 32
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: 用龙鳞制成的铠甲。
+  name: 龙鳞铠甲
+  icon_index: 170
+  price: 15000
+  note: ''
+  id: 35
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 40
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 3
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: 用铁锁链制成的可以完全覆盖头部的帽子。
+  name: 链甲罩帽
+  icon_index: 164
+  price: 100
+  note: ''
+  id: 36
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 6
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: 用钢铁制成的头盔。
+  name: 铁盔
+  icon_index: 164
+  price: 600
+  note: ''
+  id: 37
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.005
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 12
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: 骑士穿着的头盔。
+  name: 骑士盔
+  icon_index: 164
+  price: 3000
+  note: ''
+  id: 38
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.01
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -3.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 18
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: 用魔法金属秘银制成的头盔。
+  name: 秘银盔
+  icon_index: 164
+  price: 7000
+  note: ''
+  id: 39
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 24
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: 用龙鳞制成的头盔。
+  name: 龙鳞盔
+  icon_index: 164
+  price: 12000
+  note: ''
+  id: 40
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.005
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 30
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 2
+  atype_id: 4
+- !ruby/object:RPG::Armor
+  description: 抵挡攻击的小盾。
+  name: 小圆盾
+  icon_index: 160
+  price: 100
+  note: ''
+  id: 41
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.02
+  params:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: 用铁框强化的木质圆盾。
+  name: 圆盾
+  icon_index: 160
+  price: 300
+  note: ''
+  id: 42
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.04
+  params:
+  - 0
+  - 0
+  - 0
+  - 3
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: 表面覆有攻击用尖刺的圆盾。
+  name: 狼牙盾
+  icon_index: 160
+  price: 1800
+  note: ''
+  id: 43
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.06
+  params:
+  - 0
+  - 0
+  - 3
+  - 6
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: 用魔法金属秘银制成的小盾。
+  name: 秘银盾
+  icon_index: 160
+  price: 4500
+  note: ''
+  id: 44
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.08
+  params:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: 用龙鳞制作的小盾。
+  name: 鳞盾
+  icon_index: 160
+  price: 7000
+  note: ''
+  id: 45
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.125
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 15
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 5
+- !ruby/object:RPG::Armor
+  description: 用硬质木材制成的盾牌。
+  name: 木盾
+  icon_index: 161
+  price: 100
+  note: ''
+  id: 46
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: -0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -1.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 2
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: 用钢铁制成的盾牌。
+  name: 铁盾
+  icon_index: 161
+  price: 700
+  note: ''
+  id: 47
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: -0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 6
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: 刻有狮鹫徽章的铁制盾牌。
+  name: 骑士盾
+  icon_index: 161
+  price: 3400
+  note: ''
+  id: 48
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: -0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -3.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 12
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: 用魔法金属秘银制成的盾牌。
+  name: 秘银盾牌
+  icon_index: 161
+  price: 7500
+  note: ''
+  id: 49
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: -0.2
+  params:
+  - 0
+  - 0
+  - 0
+  - 18
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: 用龙鳞制作的盾牌。
+  name: 龙盾
+  icon_index: 161
+  price: 13500
+  note: ''
+  id: 50
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 3
+    value: -0.2
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 33
+    data_id: 0
+    value: -2.0
+  params:
+  - 0
+  - 0
+  - 0
+  - 24
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 1
+  atype_id: 6
+- !ruby/object:RPG::Armor
+  description: 刻有斗神名字的金属腰带。
+  name: 斗神腰带
+  icon_index: 179
+  price: 3000
+  note: ''
+  id: 51
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 可以获得皮尔斯的守护魔法。
+  name: 皮尔斯的守护
+  icon_index: 179
+  price: 3000
+  note: ''
+  id: 52
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 10
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 寄宿有风之精灵的力量。
+  name: 翼靴
+  icon_index: 179
+  price: 3000
+  note: ''
+  id: 53
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 寄宿有地之精灵力量的护符。
+  name: 地之护符
+  icon_index: 179
+  price: 3000
+  note: ''
+  id: 54
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 2
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 3
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 4
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 5
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 13
+    data_id: 7
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 刻有幸运女神名字的护符。
+  name: 幸运护符
+  icon_index: 179
+  price: 5000
+  note: ''
+  id: 55
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 30
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 侍奉神明之人持有的护符。
+  name: 神符
+  icon_index: 179
+  price: 5000
+  note: ''
+  id: 56
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 3
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 4
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 5
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 6
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 7
+    value: 0.8
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 11
+    data_id: 8
+    value: 0.8
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 5
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 隐藏着魔神力量的戒指。
+  name: 所罗门之戒
+  icon_index: 179
+  price: 5000
+  note: ''
+  id: 57
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 23
+    data_id: 4
+    value: 0.5
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 10
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 提升持有者战斗力的魔法项链。
+  name: 武神项链
+  icon_index: 179
+  price: 5000
+  note: ''
+  id: 58
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.1
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 9
+    value: 0.04
+  params:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 可以获得狂战士力量的眼罩。
+  name: 狂战士的眼罩
+  icon_index: 179
+  price: 5000
+  note: ''
+  id: 59
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: -0.05
+  params:
+  - 0
+  - 0
+  - 15
+  - -5
+  - 0
+  - 0
+  - 0
+  - 0
+  etype_id: 4
+  atype_id: 1
+- !ruby/object:RPG::Armor
+  description: 寄宿有众神之王力量的护符。
+  name: 光之护符
+  icon_index: 179
+  price: 5000
+  note: ''
+  id: 60
+  features:
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 0
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 1
+    value: 0.05
+  - !ruby/object:RPG::BaseItem::Feature
+    code: 22
+    data_id: 7
+    value: 0.04
+  params:
+  - 0
+  - 0
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  etype_id: 4
+  atype_id: 1
