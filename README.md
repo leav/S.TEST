@@ -8,4 +8,3 @@
 ![[表]宿舍厕所.png](Screenshots/[表]宿舍厕所.png)
 ![[里]泪水之池.png](Screenshots/[里]泪水之池.png)
 
-![[表]宿舍走廊 (2).png](Screenshots/[表]宿舍走廊 (2).png)
